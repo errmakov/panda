@@ -55,7 +55,7 @@ jobs:
           node-version: 18
 
       - name: 📥 Install deps
-        run: npm install
+        run: npm install --force
 
       - name: 🔎 Type check
         run: npm run typecheck --if-present
@@ -75,7 +75,7 @@ jobs:
           node-version: 18
 
       - name: 📥 Install deps
-        run: npm install
+        run: npm install --force
 
       - name: ⚡ Run vitest
         run: npm run test -- --coverage
@@ -98,7 +98,7 @@ jobs:
           node-version: 18
 
       - name: 📥 Install deps
-        run: npm install
+        run: npm install --force
 
       - name: 🏗 Build
         run: npm run build
