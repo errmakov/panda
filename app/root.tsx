@@ -33,7 +33,7 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
-        <h1>hello panda!!1</h1>
+        <h1>hello panda!!1ees</h1>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
